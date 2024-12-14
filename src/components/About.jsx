@@ -1,12 +1,12 @@
-import Logo from "../assets/logoWecare.png";
+import AboutMe from "../assets/AboutMe.png";
 
 function About() {
   return (
     <>
-      <div className="w-full py-6 my-6">
-        <div className="container mx-auto md:px-10 px-6 tracking-normal flex justify-center items-start gap-20">
-          <div className="w-1/2">
-            <div className="space-y-2 pb-8">
+      <div className="w-full bg-slate-100 py-10 lg:py-20">
+        <div className="container mx-auto md:px-10 px-8">
+          <div className="flex flex-col-reverse lg:flex-row justify-between items-center lg:gap-10">
+            <div className=" space-y-2">
               <p>
                 I am a proud graduate of the Perempuan Inovasi Bootcamp, where I
                 honed my skills in web development and teamwork.
@@ -27,71 +27,22 @@ function About() {
                 prototype. All of this laid the foundation for the final web
                 project, which we presented during our Demo Day.
               </p>
+
+              <button className="lg:py-6 hover:text-blue-600">
+                More &rarr;
+              </button>
             </div>
 
-            <div className="flex gap-4">
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src={Logo} alt="Image description" />
-                <div class="px-6 py-4">
-                  <h5 class="text-xl font-bold mb-2">Card title</h5>
-                  <div className="flex gap-4">
-                    <p class="text-gray-700 text-base bg-gray-100 ">React</p>
-                    <p class="text-gray-700 text-base bg-gray-100 ">Tailwind</p>
-                  </div>
-                </div>
-                <div class="px-6 py-4 flex justify-between">
-                  <a href="#" class="text-blue-500 hover:text-blue-700">
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
-
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src={Logo} alt="Image description" />
-                <div class="px-6 py-4">
-                  <h5 class="text-xl font-bold mb-2">Card title</h5>
-                  <div className="flex gap-4">
-                    <p class="text-gray-700 text-base bg-gray-100 ">React</p>
-                    <p class="text-gray-700 text-base bg-gray-100 ">Tailwind</p>
-                  </div>
-                </div>
-                <div class="px-6 py-4 flex justify-between">
-                  <a href="#" class="text-blue-500 hover:text-blue-700">
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
-
-              <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img class="w-full" src={Logo} alt="Image description" />
-                <div class="px-6 py-4">
-                  <h5 class="text-xl font-bold mb-2">Card title</h5>
-                  <div className="flex gap-4">
-                    <p class="text-gray-700 text-base bg-gray-100 ">React</p>
-                    <p class="text-gray-700 text-base bg-gray-100 ">Tailwind</p>
-                  </div>
-                </div>
-                <div class="px-6 py-4 flex justify-between">
-                  <a href="#" class="text-blue-500 hover:text-blue-700">
-                    Go somewhere
-                  </a>
-                </div>
-              </div>
+            <div className="pb-8 lg:pb-0">
+              <img src={AboutMe} alt="" />
             </div>
           </div>
 
-          <div className="w-1/2 flex justify-center gap-6">
-            <div className="flex flex-col gap-6">
-              <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
-              <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
-              <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
-            </div>
-            <div className="flex flex-col gap-6">
-              <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
-              <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
-              <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
-            </div>
-          </div>
+          {/* <div className=" flex justify-center gap-6">
+            <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
+            <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
+            <img src="" alt="" className="bg-gray-100 w-[300px] h-[200px]" />
+          </div> */}
         </div>
       </div>
     </>

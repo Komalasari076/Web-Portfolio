@@ -1,18 +1,23 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-function PageTemplate() {
+function Layout() {
   return (
     <>
       <header>
         <Navbar />
       </header>
 
-      <div>
+      <main>
         <Outlet />
-      </div>
+      </main>
+
+    <footer>
+      <Footer/>
+    </footer>
     </>
   );
 }
 
-export default PageTemplate;
+export default Layout;
