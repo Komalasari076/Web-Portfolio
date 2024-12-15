@@ -16,7 +16,7 @@ function Hero() {
   return (
     <>
       <div
-        className="relative w-full overflow-hidden"
+        className="relative w-full min-w-[375px] overflow-hidden"
         onMouseMove={handleMouseMove}
       >
         <div className="container mx-auto md:px-10 px-8">
