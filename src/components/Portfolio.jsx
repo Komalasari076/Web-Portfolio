@@ -1,6 +1,7 @@
 import WeCare from "../assets/WeCare.png";
 import Portify from "../assets/Portify.png";
 import LandingPage from "../assets/LandingPage.png";
+import LogicWeb from "../assets/LogicWeb.png";
 
 function Portfolio() {
   return (
@@ -118,19 +119,37 @@ function Portfolio() {
               </div>
 
               <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="" alt="" className="bg-gray-100 w-full h-[200px]" />
-                <div class="px-6 py-4">
-                  <h5 class="text-xl font-bold mb-2">Card title</h5>
-                  <div className="flex gap-4">
-                    <p class="text-gray-700 text-sm bg-gray-100 ">React</p>
-                    <p class="text-gray-700 text-sm bg-gray-100 ">Tailwind</p>
+                <img
+                  src={LogicWeb}
+                  alt="Logic Web"
+                  className="bg-gray-100 w-full h-[200px] object-cover"
+                />
+                <div class="px-6 py-4 bg-slate-50">
+                  <h5 class="text-lg font-bold mb-2">
+                    Logic Web (Personal Project)
+                  </h5>
+                  <div className="flex justify-start gap-2 pr-2 text-gray-700">
+                    <p class="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
+                      HTML
+                    </p>
+                    <p class="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
+                      CSS
+                    </p>
+                    <p class="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
+                      JavaScript
+                    </p>
                   </div>
                 </div>
-                <div class="px-6 py-4 flex justify-between">
-                  <a href="#" class="text-blue-500 hover:text-blue-700">
-                    Go somewhere
-                  </a>
-                </div>
+
+                <a
+                  href="https://logic-web.vercel.app/"
+                  target="_blank"
+                  className="text-slate-800 "
+                >
+                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                    See More
+                  </div>
+                </a>
               </div>
 
               <div class="max-w-sm rounded overflow-hidden shadow-lg">
