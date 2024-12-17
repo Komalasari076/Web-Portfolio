@@ -1,10 +1,3 @@
-import Research from "../assets/Research.png";
-import Wireframe from "../assets/Wireframe.png";
-import Prototype from "../assets/Prototype.png";
-import PitchDeck from "../assets/PitchDeck.svg";
-import Userflow from "../assets/Userflow.png";
-import Poster from "../assets/Poster.png";
-
 function Design() {
   return (
     <>

@@ -1,7 +1,9 @@
 import Wave from "../../assets/WaveBottom.svg";
-import Collection1 from "../../assets/collection1.jpg"
-import Collection2 from "../../assets/collection2.jpg"
-import Collection3 from "../../assets/collection3.jpg"
+import Collection1 from "../../assets/collection1.jpg";
+import Collection2 from "../../assets/collection2.jpg";
+import Collection3 from "../../assets/collection3.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExpand, faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function Design() {
   return (
@@ -20,108 +22,111 @@ function Design() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* Card 1 */}
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50">
+              {/* Gambar */}
               <img
                 src={Collection1}
                 alt="WeCare Project"
-                className="w-full h-[200px] object-cover object-[50%_80%]"
+                className="w-full h-[200px] object-cover object-[50%_60%]"
               />
-              <div className="px-6 py-4 bg-slate-50">
-                <h5 className="text-lg font-bold mb-2">
-                  Wecare (Team Project)
+
+              {/* Judul */}
+              <div className="px-6 pt-4">
+                <h5 className="text-lg font-bold mb-2 text-slate-800">
+                  Flower and Green 01
                 </h5>
-                <div className="flex justify-start gap-2 text-gray-700">
-                  <p className="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    React
-                  </p>
-                  <p className="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    Tailwind
-                  </p>
-                  <p className="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    Express.js
-                  </p>
-                  <p className="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    MongoDB
-                  </p>
-                </div>
               </div>
 
-              <a
-                href="https://wecare-web-theta.vercel.app/"
-                target="_blank"
-                className="text-slate-800 "
-              >
-                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
-                  See More
-                </div>
-              </a>
+              {/* Tombol */}
+              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50 hover:bg-slate-100">
+                <a
+                  href={Collection1}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500"
+                >
+                  <FontAwesomeIcon icon={faExpand} /> Lihat Full
+                </a>
+                <a
+                  href={Collection1}
+                  download="Flower and Green 01.jpg"
+                  className="hover:text-green-500"
+                >
+                  <FontAwesomeIcon icon={faDownload} /> Unduh Foto
+                </a>
+              </div>
             </div>
 
             {/* Card 2 */}
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50">
+              {/* Gambar */}
               <img
                 src={Collection2}
                 alt="Portify Project"
-                className="bg-gray-100 w-full h-[200px] object-cover object-[50%_70%]"
+                className="w-full h-[200px] object-cover object-[50%_100%]"
               />
-              <div className="px-6 py-4 bg-slate-50">
-                <h5 className="text-lg font-bold mb-2">
-                  Portify (Personal Project)
+
+              {/* Judul */}
+              <div className="px-6 pt-4">
+                <h5 className="text-lg font-bold mb-2 text-slate-800">
+                  Cloud Canvas 01
                 </h5>
-                <div className="flex justify-start gap-2 pr-2 text-gray-700">
-                  <p className="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    React
-                  </p>
-                  <p className="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    Tailwind
-                  </p>
-                </div>
               </div>
 
-              <a
-                href="https://portify-project.vercel.app/"
-                target="_blank"
-                className="text-slate-800 "
-              >
-                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
-                  See More
-                </div>
-              </a>
+              {/* Tombol */}
+              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50 hover:bg-slate-100">
+                <a
+                  href={Collection2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500"
+                >
+                  <FontAwesomeIcon icon={faExpand} /> Lihat Full
+                </a>
+                <a
+                  href={Collection2}
+                  download="Cloud Canvas 01.jpg"
+                  className="hover:text-green-500"
+                >
+                  <FontAwesomeIcon icon={faDownload} /> Unduh Foto
+                </a>
+              </div>
             </div>
 
             {/* Card 3 */}
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50">
+              {/* Gambar */}
               <img
                 src={Collection3}
                 alt="Landing Page"
-                className="bg-gray-100 w-full h-[200px] object-cover"
+                className="w-full h-[200px] object-cover"
               />
-              <div class="px-6 py-4 bg-slate-50">
-                <h5 class="text-lg font-bold mb-2">
-                  Landing Page (Personal Project)
+
+              {/* Judul */}
+              <div className="px-6 pt-4">
+                <h5 className="text-lg font-bold mb-2 text-slate-800">
+                  Leafy Canopy 01
                 </h5>
-                <div className="flex justify-start gap-2 pr-2 text-gray-700">
-                  <p class="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    HTML
-                  </p>
-                  <p class="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    CSS
-                  </p>
-                  <p class="text-sm bg-gray-100 px-2 py-1 rounded-md shadow-md">
-                    JavaScript
-                  </p>
-                </div>
               </div>
 
-              <a
-                href="https://workshop-landing-page-pi.netlify.app/"
-                target="_blank"
-                className="text-slate-800 "
-              >
-                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
-                  See More
-                </div>
-              </a>
+              {/* Tombol */}
+              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50 hover:bg-slate-100">
+                <a
+                  href={Collection3}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500"
+                >
+                  <FontAwesomeIcon icon={faExpand} /> Lihat Full
+                </a>
+                <a
+                  href={Collection3}
+                  download="Leafy Canopy 01.jpg"
+                  className="hover:text-green-500"
+                >
+                  <FontAwesomeIcon icon={faDownload} /> Unduh Foto
+                </a>
+              </div>
             </div>
           </div>
         </div>
