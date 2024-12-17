@@ -1,6 +1,9 @@
 import Logo from "../assets/Logo.png";
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+import Collection1 from "../assets/collection1.jpg";
+import Collection2 from "../assets/collection2.jpg";
+import Collection3 from "../assets/collection3.jpg";
 
 function Footer() {
   return (
@@ -30,7 +33,7 @@ function Footer() {
                       <Link to="/portfolio">Portfolio</Link>
                     </li>
                     <li className=" hover:text-red">
-                      <Link to="/design">Design</Link>
+                      <Link to="/frames">Frames</Link>
                     </li>
                   </div>
                 </div>
@@ -39,20 +42,21 @@ function Footer() {
                 <div className="mb-10">
                   <h4 className="text-lg font-bold mb-4 ">Full Stack</h4>
                   <div className="flex flex-col space-y-3 font-semibold text-gray-800 ">
-                    <p>WeCare</p>
-                    <p>Portify</p>
-                    <p>Landing Page</p>
-                    <p>Logic Web</p>
+                    <a href="https://wecare-web-theta.vercel.app/">WeCare</a>
+                    <a href="https://portify-project.vercel.app/">Portify</a>
+                    <a href="https://workshop-landing-page-pi.netlify.app/">
+                      Landing Page
+                    </a>
                   </div>
                 </div>
 
                 {/* UI UX */}
                 <div className="mb-10">
                   <h4 className="text-lg font-bold mb-4">UI UX</h4>
-                  <div className="space-y-2 font-semibold text-gray-800">
-                    <p>WeCare</p>
-                    <p>Portify</p>
-                    <p>IntoSea</p>
+                  <div className="flex flex-col space-y-2 font-semibold text-gray-800">
+                    <a href={Collection1}>Flower and Green 01</a>
+                    <a href={Collection2}>Cloud Canvas 01</a>
+                    <a href={Collection3}>Leafy Canopy 01</a>
                   </div>
                 </div>
               </div>

@@ -7,7 +7,7 @@ import Collection6 from "../assets/collection6.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExpand, faDownload } from "@fortawesome/free-solid-svg-icons";
 
-function Design() {
+function Frames() {
   return (
     <>
       <div className="w-full lg:pt-20 md:pt-12 pt-10">
@@ -241,4 +241,4 @@ function Design() {
   );
 }
 
-export default Design;
+export default Frames;

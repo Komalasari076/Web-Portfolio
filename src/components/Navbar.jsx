@@ -29,7 +29,7 @@ function Navbar() {
                 <Link to="/portfolio">Portfolio</Link>
               </li>
               <li className="px-4 py-1 hover:shadow-lg hover:bg-slate-50 hover:rounded-md">
-                <Link to="/design">Design</Link>
+                <Link to="/frames">Frames</Link>
               </li>
             </div>
 
@@ -54,7 +54,7 @@ function Navbar() {
               <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className="block py-2 font-semibold text-gray-800 hover:text-red">
-              <Link to="/design">Design</Link>
+              <Link to="/frames">Frames</Link>
             </li>
           </div>
         </div>
