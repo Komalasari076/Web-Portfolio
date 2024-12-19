@@ -1,4 +1,4 @@
-import Design from "./Design";
+import Frames from "./Frames";
 import Hero from "./Hero";
 import Portfolio from "./Portfolio";
 
@@ -7,7 +7,7 @@ function Homepage() {
     <>
       <Hero />
       <Portfolio />
-      <Design />
+      <Frames />
     </>
   );
 }

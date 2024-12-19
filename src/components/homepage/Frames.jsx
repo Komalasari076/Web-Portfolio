@@ -4,8 +4,9 @@ import Collection2 from "../../assets/collection2.jpg";
 import Collection3 from "../../assets/collection3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExpand, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
-function Design() {
+function Frames() {
   return (
     <>
       <div className="relative min-w-[375px] pt-6 bg-slate-100">
@@ -16,9 +17,15 @@ function Design() {
         ></div>
 
         <div className="relative z-10 container mx-auto md:px-10 px-6 tracking-normal lg:pb-60 md:pb-50 pb-72">
-          <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 my-10 rounded-lg w-fit shadow-md">
-            Green Frames
-          </h1>
+          <div className="flex justify-between items-center">
+            <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 my-10 rounded-lg w-fit shadow-md">
+              Green Frames
+            </h1>
+
+            <span className="text-2xl font-bold bg-slate-50 px-1.5 pb-1 rounded-full shadow-lg hover:text-3xl">
+              <Link to="/frames">&#8594;</Link>
+            </span>
+          </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* Card 1 */}
@@ -135,4 +142,4 @@ function Design() {
   );
 }
 
-export default Design;
+export default Frames;

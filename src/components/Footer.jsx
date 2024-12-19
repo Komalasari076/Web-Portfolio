@@ -52,7 +52,7 @@ function Footer() {
 
                 {/* UI UX */}
                 <div className="mb-10">
-                  <h4 className="text-lg font-bold mb-4">UI UX</h4>
+                  <h4 className="text-lg font-bold mb-4">Green Frames</h4>
                   <div className="flex flex-col space-y-2 font-semibold text-gray-800">
                     <a href={Collection1}>Flower and Green 01</a>
                     <a href={Collection2}>Cloud Canvas 01</a>

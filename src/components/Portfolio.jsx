@@ -86,6 +86,7 @@ function Portfolio() {
                 </a>
               </div>
 
+              {/* Card 3 */}
               <div class="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   src={LandingPage}
@@ -120,6 +121,7 @@ function Portfolio() {
                 </a>
               </div>
 
+              {/* Card 4 */}
               <div class="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   src={LogicWeb}
@@ -154,6 +156,7 @@ function Portfolio() {
                 </a>
               </div>
 
+              {/* Card 5 */}
               <div class="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   src={TodoList}
@@ -185,6 +188,7 @@ function Portfolio() {
                 </a>
               </div>
 
+              {/* Card 6 */}
               <div class="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   src={BMI}

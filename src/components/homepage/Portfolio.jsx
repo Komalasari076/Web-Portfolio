@@ -2,6 +2,7 @@ import Wave from "../../assets/WaveTop.svg";
 import WeCare from "../../assets/WeCare.png";
 import Portify from "../../assets/Portify.png";
 import LandingPage from "../../assets/LandingPage.png";
+import { Link } from "react-router-dom";
 
 function Portfolio() {
   return (
@@ -15,9 +16,15 @@ function Portfolio() {
 
         {/* Content */}
         <div className="relative z-10 container mx-auto md:px-10 px-6 tracking-normal lg:pt-50 md:pt-40 pt-64">
-          <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 my-10 rounded-lg w-fit shadow-md">
-            Full Stack Developer
-          </h1>
+          <div className="flex justify-between items-center">
+            <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 my-10 rounded-lg w-fit shadow-md">
+              Full Stack Developer
+            </h1>
+
+            <span className="text-2xl font-bold bg-slate-50 px-1.5 pb-1 rounded-full shadow-lg hover:text-3xl">
+              <Link to="/portfolio">&#8594;</Link>
+            </span>
+          </div>
 
           {/* Card 1 */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
