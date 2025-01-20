@@ -23,16 +23,16 @@ function Footer() {
                 <div className="mb-10">
                   <h4 className="text-lg font-bold mb-4">Navigasi</h4>
                   <div className="flex flex-col space-y-3 font-semibold list-none text-gray-800">
-                    <li className="hover:text-red">
+                    <li className="hover:text-slate-500">
                       <Link to="/">Home</Link>
                     </li>
-                    <li className="hover:text-red" href="about.html">
+                    <li className="hover:text-slate-500">
                       <Link to="/about">About</Link>
                     </li>
-                    <li className=" hover:text-red">
+                    <li className=" hover:text-slate-500">
                       <Link to="/portfolio">Portfolio</Link>
                     </li>
-                    <li className=" hover:text-red">
+                    <li className=" hover:text-slate-500">
                       <Link to="/frames">Frames</Link>
                     </li>
                   </div>
@@ -42,9 +42,9 @@ function Footer() {
                 <div className="mb-10">
                   <h4 className="text-lg font-bold mb-4 ">Full Stack</h4>
                   <div className="flex flex-col space-y-3 font-semibold text-gray-800 ">
-                    <a href="https://wecare-web-theta.vercel.app/">WeCare</a>
-                    <a href="https://portify-project.vercel.app/">Portify</a>
-                    <a href="https://workshop-landing-page-pi.netlify.app/">
+                    <a className="hover:text-slate-500" href="https://wecare-web-theta.vercel.app/">WeCare</a>
+                    <a className="hover:text-slate-500" href="https://portify-project.vercel.app/">Portify</a>
+                    <a className="hover:text-slate-500" href="https://workshop-landing-page-pi.netlify.app/">
                       Landing Page
                     </a>
                   </div>
@@ -54,9 +54,9 @@ function Footer() {
                 <div className="mb-10">
                   <h4 className="text-lg font-bold mb-4">Green Frames</h4>
                   <div className="flex flex-col space-y-2 font-semibold text-gray-800">
-                    <a href={Collection1}>Flower and Green 01</a>
-                    <a href={Collection2}>Cloud Canvas 01</a>
-                    <a href={Collection3}>Leafy Canopy 01</a>
+                    <a className="hover:text-slate-500" href={Collection1}>Flower and Green 01</a>
+                    <a className="hover:text-slate-500" href={Collection2}>Cloud Canvas 01</a>
+                    <a className="hover:text-slate-500" href={Collection3}>Leafy Canopy 01</a>
                   </div>
                 </div>
               </div>

@@ -11,24 +11,24 @@ function Navbar() {
         <div className="container mx-auto md:px-10 px-6">
           <nav className="flex items-center justify-between lg:py-6 py-2">
             {/* Logo */}
-            <div className=" w-10 lg:w-14">
+            <div className="w-10 lg:w-12">
               <a href="/">
                 <img src={Logo} alt="" className="w-full" />
               </a>
             </div>
 
             {/* Navigation desktop */}
-            <div className="hidden list-none font-semibold lg:flex lg:items-center space-1 tracking-wide bg-slate-100/[0.90] py-2 px-4 rounded-md">
-              <li className="px-4 py-1 hover:shadow-lg hover:bg-slate-50 hover:rounded-md ">
+            <div className="hidden list-none font-semibold lg:flex lg:items-center space-1 tracking-wide bg-white/[0.90] py-2 px-4 rounded-md">
+              <li className="px-4 py-1 hover:shadow-md hover:bg-slate-50 hover:rounded-md ">
                 <Link to="/">Home</Link>
               </li>
-              <li className="px-4 py-1 hover:shadow-lg hover:bg-slate-50 hover:rounded-md">
+              <li className="px-4 py-1 hover:shadow-md hover:bg-slate-50 hover:rounded-md">
                 <Link to="/about"> About</Link>
               </li>
-              <li className="px-2 py-1 hover:shadow-lg hover:bg-slate-50 hover:rounded-md">
+              <li className="px-2 py-1 hover:shadow-md hover:bg-slate-50 hover:rounded-md">
                 <Link to="/portfolio">Portfolio</Link>
               </li>
-              <li className="px-4 py-1 hover:shadow-lg hover:bg-slate-50 hover:rounded-md">
+              <li className="px-4 py-1 hover:shadow-md hover:bg-slate-50 hover:rounded-md">
                 <Link to="/frames">Frames</Link>
               </li>
             </div>
@@ -44,16 +44,16 @@ function Navbar() {
           </nav>
 
           <div className={`${menuOpen ? "block" : "hidden"} lg:hidden `}>
-            <li className="block pb-2 pt-6 font-semibold text-gray-800 hover:text-red">
+            <li className="block pb-2 pt-6 font-semibold text-gray-800 hover:font-bold">
               <Link to="/">Home</Link>
             </li>
-            <li className="block py-2 font-semibold text-gray-800 hover:text-red">
+            <li className="block py-2 font-semibold text-gray-800 hover:font-bold">
               <Link to="/about">About</Link>
             </li>
-            <li className="block py-2 font-semibold text-gray-800 hover:text-red">
+            <li className="block py-2 font-semibold text-gray-800 hover:font-bold">
               <Link to="/portfolio">Portfolio</Link>
             </li>
-            <li className="block py-2 font-semibold text-gray-800 hover:text-red">
+            <li className="block pt-2 pb-6 font-semibold text-gray-800 hover:font-bold">
               <Link to="/frames">Frames</Link>
             </li>
           </div>

@@ -1,4 +1,3 @@
-import Wave from "../../assets/WaveTop.svg";
 import WeCare from "../../assets/WeCare.png";
 import Portify from "../../assets/Portify.png";
 import LandingPage from "../../assets/LandingPage.png";
@@ -7,15 +6,9 @@ import { Link } from "react-router-dom";
 function Portfolio() {
   return (
     <>
-      <div className="relative min-w-[375px] py-6 bg-slate-100">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${Wave})` }}
-        ></div>
-
+      <div className="py-6 bg-slate-100 w-full">
         {/* Content */}
-        <div className="relative z-10 container mx-auto md:px-10 px-6 tracking-normal lg:pt-50 md:pt-40 pt-64">
+        <div className="container mx-auto md:px-10 px-6 tracking-normal">
           <div className="flex justify-between items-center">
             <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 my-10 rounded-lg w-fit shadow-md">
               Full Stack Developer
@@ -27,7 +20,7 @@ function Portfolio() {
           </div>
 
           {/* Card 1 */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
               <img
                 src={WeCare}
@@ -59,7 +52,7 @@ function Portfolio() {
                 target="_blank"
                 className="text-slate-800 "
               >
-                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                   See More
                 </div>
               </a>
@@ -91,7 +84,7 @@ function Portfolio() {
                 target="_blank"
                 className="text-slate-800 "
               >
-                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                   See More
                 </div>
               </a>
@@ -126,7 +119,7 @@ function Portfolio() {
                 target="_blank"
                 className="text-slate-800 "
               >
-                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                   See More
                 </div>
               </a>

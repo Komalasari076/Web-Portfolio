@@ -1,4 +1,3 @@
-import Wave from "../../assets/WaveBottom.svg";
 import Collection1 from "../../assets/collection1.jpg";
 import Collection2 from "../../assets/collection2.jpg";
 import Collection3 from "../../assets/collection3.jpg";
@@ -9,14 +8,8 @@ import { Link } from "react-router-dom";
 function Frames() {
   return (
     <>
-      <div className="relative min-w-[375px] pt-6 bg-slate-100">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${Wave})` }}
-        ></div>
-
-        <div className="relative z-10 container mx-auto md:px-10 px-6 tracking-normal lg:pb-60 md:pb-50 pb-72">
+      <div className="py-6 bg-slate-100">
+        <div className="container mx-auto md:px-10 px-6 tracking-normal">
           <div className="flex justify-between items-center">
             <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 my-10 rounded-lg w-fit shadow-md">
               Green Frames
@@ -27,7 +20,7 @@ function Frames() {
             </span>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-20">
             {/* Card 1 */}
             <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50">
               {/* Gambar */}
@@ -45,21 +38,21 @@ function Frames() {
               </div>
 
               {/* Tombol */}
-              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50 hover:bg-slate-100">
+              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50">
                 <a
                   href={Collection1}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-500"
+                  className="hover:text-blue-800 hover:font-semibold"
                 >
-                  <FontAwesomeIcon icon={faExpand} /> Lihat Full
+                  <FontAwesomeIcon icon={faExpand} /> Full
                 </a>
                 <a
                   href={Collection1}
                   download="Flower and Green 01.jpg"
-                  className="hover:text-green-500"
+                  className="hover:text-green-800 hover:font-semibold"
                 >
-                  <FontAwesomeIcon icon={faDownload} /> Unduh Foto
+                  <FontAwesomeIcon icon={faDownload} /> Download
                 </a>
               </div>
             </div>
@@ -81,21 +74,21 @@ function Frames() {
               </div>
 
               {/* Tombol */}
-              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50 hover:bg-slate-100">
+              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50">
                 <a
                   href={Collection2}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-500"
+                  className="hover:text-blue-800 hover:font-semibold"
                 >
-                  <FontAwesomeIcon icon={faExpand} /> Lihat Full
+                  <FontAwesomeIcon icon={faExpand} /> Full
                 </a>
                 <a
                   href={Collection2}
                   download="Cloud Canvas 01.jpg"
-                  className="hover:text-green-500"
+                  className="hover:text-green-800 hover:font-semibold"
                 >
-                  <FontAwesomeIcon icon={faDownload} /> Unduh Foto
+                  <FontAwesomeIcon icon={faDownload} /> Download
                 </a>
               </div>
             </div>
@@ -117,21 +110,21 @@ function Frames() {
               </div>
 
               {/* Tombol */}
-              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50 hover:bg-slate-100">
+              <div className="px-6 py-4 flex justify-between gap-2 bg-slate-50">
                 <a
                   href={Collection3}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-500"
+                  className="hover:text-blue-800 hover:font-semibold"
                 >
-                  <FontAwesomeIcon icon={faExpand} /> Lihat Full
+                  <FontAwesomeIcon icon={faExpand} /> Full
                 </a>
                 <a
                   href={Collection3}
                   download="Leafy Canopy 01.jpg"
-                  className="hover:text-green-500"
+                  className="hover:text-green-800 hover:font-semibold"
                 >
-                  <FontAwesomeIcon icon={faDownload} /> Unduh Foto
+                  <FontAwesomeIcon icon={faDownload} /> Download
                 </a>
               </div>
             </div>

@@ -8,15 +8,15 @@ import BMI from "../assets/BMI calculator.png";
 function Portfolio() {
   return (
     <>
-      <div className="relative w-full lg:pt-20 md:pt-12 pt-10">
-        <div className="relative z-10 container mx-auto md:px-10 px-6 tracking-normal ">
+      <div className="w-full lg:pt-20 md:pt-12 pt-10">
+        <div className="container mx-auto md:px-10 px-6 tracking-normal ">
           <div className="border-b border-slate-300">
-            <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 my-10 rounded-lg w-fit shadow-md">
+            <h1 className="text-lg font-medium bg-slate-50 py-2 px-4 md:my-10 my-8 rounded-lg w-fit shadow-md">
               Full Stack Developer
             </h1>
 
             {/* Card 1 */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-20">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 md:pb-20 pb-14">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   src={WeCare}
@@ -48,7 +48,7 @@ function Portfolio() {
                   target="_blank"
                   className="text-slate-800 "
                 >
-                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                     See More
                   </div>
                 </a>
@@ -80,7 +80,7 @@ function Portfolio() {
                   target="_blank"
                   className="text-slate-800 "
                 >
-                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                     See More
                   </div>
                 </a>
@@ -115,7 +115,7 @@ function Portfolio() {
                   target="_blank"
                   className="text-slate-800 "
                 >
-                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                     See More
                   </div>
                 </a>
@@ -150,7 +150,7 @@ function Portfolio() {
                   target="_blank"
                   className="text-slate-800 "
                 >
-                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                     See More
                   </div>
                 </a>
@@ -182,7 +182,7 @@ function Portfolio() {
                   target="_blank"
                   className="text-slate-800 "
                 >
-                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                     See More
                   </div>
                 </a>
@@ -217,7 +217,7 @@ function Portfolio() {
                   target="_blank"
                   className="text-slate-800 "
                 >
-                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100">
+                  <div className="px-6 py-4 flex justify-between bg-slate-50 hover:bg-slate-100 hover:font-semibold">
                     See More
                   </div>
                 </a>
